@@ -1,0 +1,16 @@
+// Mixins
+/* Font */
+@mixin fontStyle( $fontWeight: null, $fontSize: null, $lineHeight: null, $color: null) {
+	font-family: $primary-font;
+	font-weight: $fontWeight;
+	font-size: ($fontSize)+px;
+	line-height: ($lineHeight)+px;
+	color: $color;
+} 
+
+@mixin mediaFontStyle($fontSize: null, $lineHeight: null) {
+    font-size: ($fontSize)+px;
+    line-height: ($lineHeight)+px;
+} 
+
+// mixins goes here...

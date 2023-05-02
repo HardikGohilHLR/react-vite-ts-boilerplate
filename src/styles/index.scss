@@ -1,0 +1,12 @@
+// Styles
+
+// Helper styles
+@import './helpers/variables';
+@import './helpers/mixins';
+
+// Common Styles
+@import './common/typography';
+@import './common/common';
+
+// Pages
+@import './pages/home';
