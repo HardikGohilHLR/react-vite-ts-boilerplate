@@ -2,10 +2,10 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
 
 // Reduers
-import commonReducer from 'store/reducers/common';
+import commonReducer from 'store/reducers/commonSlice';
 
 const reducer = combineReducers({
-    common: commonReducer,
+    common: commonReducer
 });
 
 export const store = configureStore({ 

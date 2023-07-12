@@ -1,4 +1,4 @@
-import Main from "app";
+import Main from 'app';
 
 // App
 const App = () => {

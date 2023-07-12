@@ -4,17 +4,21 @@ import { PayloadAction, createSlice } from '@reduxjs/toolkit';
 import { USER_ROLE } from '@core/constants';
 import { IUser } from '@core/interfaces';
 
-export interface CommonState {
+export type RCommonSlice = {
+    common: CommonSliceState
+}
+
+export interface CommonSliceState {
     user: IUser;
     isAuthenticated: boolean;
     permissions: string[];
 }
 
-const initialState: CommonState = {
+const initialState: CommonSliceState = {
     user: {
         firstName: 'Hardik',
-        lastName: 'Doe',
-        email: 'john.doe@yopmail.com',
+        lastName: 'Gohil',
+        email: 'hardik.gohil@yopmail.com',
         phoneNumber: 12346568
     },
     isAuthenticated: false,

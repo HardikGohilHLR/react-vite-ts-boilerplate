@@ -1,7 +1,7 @@
 // Entry Point
-import { routes } from 'navigator';
 import React, { Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom'; 
+import { routes } from 'navigator';
 
 const Main = () => {
 	return (
@@ -11,7 +11,7 @@ const Main = () => {
 				<Routes>
 					{
 						routes?.map(route => {
-							return <Route path={route?.path} element={route?.element} />;
+							return <Route path={route?.path} key={route?.path} element={route?.element} />;
 						})
 					}
 				</Routes>
