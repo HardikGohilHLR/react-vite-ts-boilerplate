@@ -1,0 +1,16 @@
+// Button
+.btn {
+    @include fontStyle(600, 16, 20);
+    border-radius: 5px;
+    padding: 12px 32px;
+    position: relative;
+    transition: 0.2s linear;
+    background-color: $white;
+    color: $black;
+    border: 1px solid $white;
+
+    &:hover {
+        background-color: $black;
+        color: $white;
+    }
+}

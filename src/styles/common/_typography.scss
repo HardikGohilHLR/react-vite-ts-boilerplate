@@ -2,37 +2,37 @@
 @font-face {
     font-family: $primary-font;
     font-weight: 300;
-    src: url('../../assets/fonts/Manrope-Light.woff2') format('woff2');
+    src: url('fonts/Manrope-Light.woff2') format('woff2');
 }
 
 @font-face {
     font-family: $primary-font;
     font-weight: 400;
-    src: url('../../assets/fonts/Manrope-Regular.woff2') format('woff2');
+    src: url('fonts/Manrope-Regular.woff2') format('woff2');
 }
 
 @font-face {
     font-family: $primary-font;
     font-weight: 500;
-    src: url('../../assets/fonts/Manrope-Medium.woff2') format('woff2');
+    src: url('fonts/Manrope-Medium.woff2') format('woff2');
 }
 
 @font-face {
     font-family: $primary-font;
     font-weight: 600;
-    src: url('../../assets/fonts/Manrope-SemiBold.woff2') format('woff2');
+    src: url('fonts/Manrope-SemiBold.woff2') format('woff2');
 }
 
 @font-face {
     font-family: $primary-font;
     font-weight: 700;
-    src: url('../../assets/fonts/Manrope-Bold.woff2') format('woff2');
+    src: url('fonts/Manrope-Bold.woff2') format('woff2');
 }
 
 @font-face {
     font-family: $primary-font;
     font-weight: 800;
-    src: url('../../assets/fonts/Manrope-ExtraBold.woff2') format('woff2');
+    src: url('fonts/Manrope-ExtraBold.woff2') format('woff2');
 }
 
 // Typography
@@ -42,4 +42,4 @@ h3 { @include fontStyle(700, 24, 30, $white); }
 h4 { @include fontStyle(600, 20, 24, $white); }
 h5 { @include fontStyle(600, 16, 20, $white); }
 
-p { @include fontStyle(600, 16, 20, $white); }
+p, a { @include fontStyle(500, 16, 20, $white); }

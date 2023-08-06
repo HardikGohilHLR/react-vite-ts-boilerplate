@@ -1,7 +1,7 @@
 // Common css
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Manrope', sans-serif; }
 ol, ul { list-style: none; } 
-body { overflow-x: hidden; font-size: 62.5%; background-color: $black; }
+body { overflow: hidden; font-size: 62.5%; background-color: $black; }
 a { display: inline-block; text-decoration: none; }
 img { width: 100%; font-size: 0; }
 input { 
